@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Confession</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="gift-overlay" class="gift-overlay" tabindex="0" role="button" aria-label="Open gift">
+    <div class="ribbon ribbon-vertical"></div>
+    <div class="ribbon ribbon-horizontal"></div>
+    <div class="bow" aria-hidden="true">
+      <img id="bow-img" src="assets/ribbon-bow-ref.svg" class="bow-svg" alt="">
+    </div>
+    <p class="open-hint">Tap to open</p>
+  </div>
+
+  <div id="question-overlay" class="question-overlay" aria-hidden="true">
+    <div class="question-card">
+      <img id="cat-gif" class="cat-gif" src="assets/cat.gif" alt="Cute cat GIF" referrerpolicy="no-referrer">
+      <div id="cat-fallback" class="cat-fallback" hidden>
+        <div class="cat-face">(=^.^=)</div>
+        <div class="cat-sub">cute cat loading failed, but still cute</div>
+      </div>
+      <h2 class="question-title">Is there a chance I could take you on a date sometime?</h2>
+      <p class="question-subtitle">I'd love to spend a sweet and simple moment with you.</p>
+      <div class="question-actions">
+        <button id="yes-btn" class="answer-btn yes-btn" type="button">Yes</button>
+        <button id="no-btn" class="answer-btn no-btn" type="button">No</button>
+      </div>
+      <p id="no-note" class="no-note" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <div id="confession-scene" class="scene">
+    <div class="paper heart"></div>
+
+    <div class="paper image">
+      <p>and I fallen in</p>
+      <p>Love with You</p>
+      <img src="images/1.jpeg" alt="Memory 1">
+    </div>
+
+    <div class="paper image">
+      <img src="images/2.jpeg" alt="Memory 2">
+    </div>
+
+    <div class="paper image">
+      <p>How can be</p>
+      <p>someone so cute</p>
+      <img src="images/3.jpg" alt="Memory 3">
+    </div>
+
+    <div class="paper red">
+      <p class="p1">and My Favorite</p>
+      <p class="p2">Person</p>
+    </div>
+
+    <div class="paper">
+      <p class="p1">You are Cute</p>
+      <p class="p1">Amazing <span style="color: red !important;">love</span></p>
+    </div>
+
+    <div class="paper">
+      <p class="p1">Drag the papers to move!</p>
+    </div>
+
+    <div id="envelope-stage" class="envelope-stage" aria-hidden="true">
+      <button id="envelope-btn" class="envelope-btn" type="button" aria-label="Open envelope">
+        <span class="envelope-body"></span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-seal">Open</span>
+      </button>
+      <p class="envelope-hint">One last thing for you...</p>
+    </div>
+  </div>
+
+  <div id="letter-modal" class="letter-modal" aria-hidden="true">
+    <div class="letter-card">
+      <button id="letter-close" class="letter-close" type="button" aria-label="Close letter">x</button>
+      <h3>My Confession</h3>
+      <p>
+        Hi. I want to tell you something honest.
+        I like you, and I have liked you for a long time.
+      </p>
+      <p>
+        Every time I see you, my day becomes lighter.
+        Your smile is simple, but it stays in my mind for a long time.
+      </p>
+      <p>
+        I am not perfect, and I do not have fancy words.
+        But what I feel for you is real.
+      </p>
+      <p>
+        I practiced this message many times.
+        My notes app has seen too much drama from me already.
+      </p>
+      <p>
+        I am not asking you to like me back.
+        I am not expecting anything from you.
+      </p>
+      <p>
+        To be honest, I feel there is probably no chance
+        that you will like someone like me, and that is okay.
+      </p>
+      <p>
+        I just wanted to tell you the truth once,
+        instead of hiding it forever.
+      </p>
+      <p>
+        Thank you for reading my confession.
+        No pressure, no expectations, just my honest heart.
+      </p>
+      <p class="letter-signature">From, <strong>ddalgi</strong></p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

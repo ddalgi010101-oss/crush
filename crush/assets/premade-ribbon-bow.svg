@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Pink ribbon bow">
+  <defs>
+    <linearGradient id="ribbonMain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ed96c8" />
+      <stop offset="55%" stop-color="#d46ea9" />
+      <stop offset="100%" stop-color="#be4e8d" />
+    </linearGradient>
+    <linearGradient id="ribbonDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d56aa6" />
+      <stop offset="100%" stop-color="#ad3f7d" />
+    </linearGradient>
+    <linearGradient id="topShine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7c3df" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#f7c3df" stop-opacity="0" />
+    </linearGradient>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#873061" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path fill="url(#ribbonMain)" fill-rule="evenodd" d="
+      M598 334
+      C510 205 352 163 225 194
+      C142 214 93 271 96 340
+      C99 423 165 483 274 510
+      C432 550 548 496 622 397
+      Z
+      M569 353
+      C492 317 389 308 300 328
+      C242 341 206 363 206 387
+      C206 413 246 433 306 446
+      C401 466 506 455 583 414
+      Z"/>
+
+    <path fill="url(#ribbonMain)" fill-rule="evenodd" d="
+      M602 334
+      C690 205 848 163 975 194
+      C1058 214 1107 271 1104 340
+      C1101 423 1035 483 926 510
+      C768 550 652 496 578 397
+      Z
+      M631 353
+      C708 317 811 308 900 328
+      C958 341 994 363 994 387
+      C994 413 954 433 894 446
+      C799 466 694 455 617 414
+      Z"/>
+
+    <path fill="url(#ribbonDark)" d="M560 470 L450 736 L572 640 L624 758 L700 500 Z"/>
+    <path fill="url(#ribbonDark)" d="M640 470 L750 736 L628 640 L576 758 L500 500 Z"/>
+
+    <path d="M558 476 L584 534 L648 520 L622 462 Z" fill="#b54884" opacity="0.55"/>
+    <path d="M642 476 L616 534 L552 520 L578 462 Z" fill="#b54884" opacity="0.55"/>
+
+    <rect x="450" y="210" width="300" height="280" rx="84" fill="url(#ribbonDark)"/>
+    <rect x="474" y="230" width="252" height="84" rx="42" fill="url(#topShine)" opacity="0.72"/>
+    <circle cx="600" cy="255" r="18" fill="#f2b9da"/>
+
+    <path d="M247 218 C341 194 471 230 566 320" stroke="#f7c7e1" stroke-width="18" stroke-linecap="round" opacity="0.34"/>
+    <path d="M953 218 C859 194 729 230 634 320" stroke="#f7c7e1" stroke-width="18" stroke-linecap="round" opacity="0.34"/>
+    <path d="M266 475 C385 510 493 486 582 405" stroke="#a83c78" stroke-width="16" stroke-linecap="round" opacity="0.28"/>
+    <path d="M934 475 C815 510 707 486 618 405" stroke="#a83c78" stroke-width="16" stroke-linecap="round" opacity="0.28"/>
+  </g>
+</svg>
